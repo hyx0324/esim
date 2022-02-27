@@ -102,20 +102,3 @@ with tf.Session(config=config) as sess:
                                              signature_def_map={"predict": signature})
         builder.save()
         print("*" * 10 + " Model Save Successfully " + '*' * 10)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

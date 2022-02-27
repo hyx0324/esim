@@ -110,18 +110,3 @@ class Graph:
 
         self.merged = tf.summary.merge_all()
         self.train_op = tf.train.AdamOptimizer(FLAGS.learning_rate).minimize(self.loss)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
